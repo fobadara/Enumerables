@@ -8,4 +8,20 @@ module MyEnumerable
     end
     true
   end
+
+  def any?(&block)
+    each do |element|
+      next if element.nil?
+      return true if block.call(element)
+    end
+    false
+  end
+
+  def filter(&block)
+    result = []
+    each do |element|
+      result << element if element.is_a?(Numeric) && block.call(element)
+    end
+    result
+  end
 end
