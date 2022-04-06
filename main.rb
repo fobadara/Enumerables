@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative './enumerables'
 # Use MyEnumerable module on initialized variable
 class MyList
