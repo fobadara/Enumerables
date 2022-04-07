@@ -6,6 +6,7 @@
   - [Setup](#setup)
     - [Clone this repository](#clone-this-repository)
     - [Move into the directory with](#move-into-the-directory-with)
+    - [Run Project](#run-project)
     - [Install linter](#install-linter)
     - [Run linter](#run-linter)
     - [Auto-correct](#auto-correct)
@@ -31,6 +32,11 @@ git clone https://github.com/fobadara/enumerables.git
 
 ```bash
 cd enumerables
+```
+
+### Run Project
+```bash
+ruby main.rb
 ```
 
 ### Install linter

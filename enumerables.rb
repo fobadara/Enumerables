@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Create all, any and filter enumerable methods
 module MyEnumerable
   def all?(&block)
